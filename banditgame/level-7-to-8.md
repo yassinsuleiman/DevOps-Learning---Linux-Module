@@ -8,5 +8,5 @@ I piped the file through `grep` to extract only the line with the target word, r
 
 ## 🔧 Commands Used
 ```bash
-grep "millionth" data.txt
+grep -a "millionth" data.txt
 exit
