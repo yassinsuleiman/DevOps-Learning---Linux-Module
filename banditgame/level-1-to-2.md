@@ -4,9 +4,7 @@
 Find and read the file named `-` to obtain the Level 2 password.
 
 ## 🤔 Thought Process  
-1. `ls` shows a file named `-`.  
-2. `cat -` reads stdin, so use `cat ./-`.  
-3. Retrieve and copy the password.  
+After logging in, I saw a file named `-`. Knowing `cat -` reads stdin, I prefixed it with `./` so the shell treated it as a filename, then read it to get the password.
 
 ## 🔧 Commands Used
 ```bash
